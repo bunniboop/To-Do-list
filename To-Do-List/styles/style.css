@@ -1,0 +1,27 @@
+:root{
+    --clr--dark: #182332;
+    --clr-light: #afb6c9
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--clr--dark);
+}
+
+.headthers{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    margin: 20px;
+}
+
+.wrapper{
+    border: red solid 2px;
+    display: flex;
+    flex-direction: row;
+    max-height: 80vh;
+}

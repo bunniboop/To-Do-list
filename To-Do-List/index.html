@@ -2,12 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>To Do App</title>
   </head>
   <body>
-    <div id="app"></div>
-    
+    <header class="headthers">
+      <a href="#" class="headerbtn">Home</a>
+      <a href="#"  class="headerbtn">About</a>
+    </header>
+
+    <div class="wrapper">
+      <div class="card" id="To-do--container"></div>
+      <div class="card" id = 'In-progress--container'></div>
+      <div class="card" id="Completed--container"></div>
+    </div>
+    <script type="module" src="src/main.js"></script>
   </body>
 </html>
