@@ -1,0 +1,60 @@
+.card__dropDown__cont{
+    display: none;
+}
+
+.card{
+    width:60vh;
+    min-height: 45vh;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--clr--card-base);
+}
+
+.card__heather{
+    background-color: aliceblue;
+    height: 3em;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__title{
+    font-size: 1.3rem;
+    color: var(--clr--dark);
+    text-align: center;
+}
+.card__dropDown_btn{
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+    color: #b80f45;
+    display: flex;
+    gap: 10px;
+}
+
+#in_progress_filter_btn{
+    color: #e3703a;
+}
+
+#to_do_header{
+    background-color: var(--clr--pink);
+}
+
+.icon__header{
+    width: 20px;
+    height: 20px;
+}
+#in_process_header{
+    background-color: var(--clr--orange);
+}
+
+#Completed--container .card__heather{
+    background-color: var(--clr--green);
+}
+
+#Completed--container .card__dropDown_btn{
+    color: #068171;
+}
