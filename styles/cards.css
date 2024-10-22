@@ -87,3 +87,56 @@
 #menu3{
     background-color: rgba(1, 191, 165, 0.8);
 }
+
+.single-task{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 10px;
+    background-color: var(--clr--card-task);
+    margin-bottom: 5px;
+    gap: 5px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#task-wrapper-to-do{
+    /* border: #b80f45 solid 1px; */
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px;
+}
+
+.icon__task{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+}
+.task_input_area{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.task-title{
+    flex-grow: 1;
+    color: var(--clr-light);
+    font-weight: 300;
+}
+
+.btnContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+
+}
+
+.icon__task_btn{
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    height: 20px;
+}
