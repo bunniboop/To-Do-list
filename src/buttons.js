@@ -51,6 +51,9 @@ function makeElement({type, content, className, idName}){
 
 function inputDone(textArea, container){
     const taskTittleInput = textArea.value;
+    if (taskTittleInput == ''){
+        return
+    }
     textArea.remove();
     const taskTitle = makeElement({type:'h3', content: taskTittleInput, className: 'task-title'});
     const confirmBtn = makeElement({type:'button'});

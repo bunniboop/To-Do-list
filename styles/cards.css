@@ -67,7 +67,8 @@
     max-width: 70px;
     flex-direction: column;
     right: 0%;
-    top: 18%;
+    top: calc(45vh * 0.18);
+    /* 18% */
     border-radius: 2px;
 }
 
@@ -138,5 +139,19 @@
     background-color: transparent;
     border: none;
     width: 30px;
-    height: 20px;
+    height: 30px;
+}
+
+.addButtons{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+
+}
+
+.addButtons:hover{
+    cursor: pointer;
 }

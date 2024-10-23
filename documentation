@@ -1,0 +1,21 @@
+Featurs added:
+-Styles:
+	* Add task buttons animation/transition
+		- when hoverd
+		- when clicked
+
+-Features:
+
+TO be added:
+-Styles:
+-Features:
+	* New groups button funcuality.
+		- progressbar.
+		- drop down menu.
+	* Task confirm and cancel button.
+	? A way to edit existing tasks.
+
+
+TO BE FIXED!:
+# ! Filter button lowering when more than 4 task added
+! Add New Task / Group staing on top of task (should add margin to parent el)

@@ -5,7 +5,7 @@ import { dropDown } from './buttons.js';
 import { addNewTask } from './buttons.js';
 
 //buttons
-const addNewTaskBtn = document.querySelector('.newTaskBtn');
+const addNewTaskBtn = document.getElementById('newTaskBtn');
 
 
 //event Listeners -->
