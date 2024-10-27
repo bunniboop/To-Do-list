@@ -2,6 +2,7 @@
     --clr--dark: #182332;
     --clr-light: #afb6c9;
     --clr--card-base: #455876;
+    --clr--card-task: #3a4b66;
     --clr--pink: #f93271;
     --clr--orange: #ff9e71;
     --clr--green: #01bfa5;
@@ -34,7 +35,7 @@ body{
     width: 95%;
     height: auto;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     margin: auto;
     padding: 5px;
