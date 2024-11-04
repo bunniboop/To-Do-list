@@ -1,0 +1,36 @@
+---------Featurs added:---------
+-Styles:
+	* Add task buttons animation/transition
+		- when hoverd
+		- when clicked
+
+-Features:
+	* Clear all btn functuality
+	* To-do task buttons func. added
+	* Task confirm and cancel button.
+	* A way to edit existing tasks.
+
+
+---------TO be added:---------
+-Styles:
+	>? Maybe move + btn on the groups so it doessnt collide with the progress bar
+
+	
+-Features:
+	>New groups button funcuality.
+		- progressbar.
+		- drop down menu.
+	> Tutorial
+	
+	>Security features:
+		- Task name lenght max (so the title doesnt break out of bounce);
+
+
+
+TO BE FIXED!:
+#
+
+FIXED:
+- Task name cant be changed after completed
+- Filter button lowering when more than 4 task added
+- Add New Task / Group staing on top of task (should add margin to parent el)
