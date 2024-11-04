@@ -184,6 +184,11 @@
     border: #2cd169 solid 1px;
     width: 90%;
     display: none;
+    flex-direction: column;
+}
+
+.drop-down-tasks > .single-task{
+    max-height: 35px;
 }
 
 .group-task-wrapper{

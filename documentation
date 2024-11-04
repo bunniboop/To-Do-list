@@ -14,12 +14,12 @@
 ---------TO be added:---------
 -Styles:
 	>? Maybe move + btn on the groups so it doessnt collide with the progress bar
-
+	> group task styles (make smaller)
 	
 -Features:
 	>New groups button funcuality.
 		- progressbar.
-		- drop down menu.
+		*(ADDED) drop down menu.
 	> Tutorial
 	
 	>Security features:
