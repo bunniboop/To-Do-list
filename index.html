@@ -1,63 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To Do App</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <header class="headthers">
-      <a href="#" class="headerbtn">Home</a>
-      <a href="#" class="headerbtn">About</a>
-    </header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>To Do App</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
+	</head>
+	<body>
+		<header class="headthers">
+		<a href="#" class="headerbtn">Home</a>
+		<a href="#" class="headerbtn">About</a>
+		</header>
 
-    <div class="wrapper">
-      <div class="card" id="To-do--container">
-        <div class="card__heather" id="to_do_header">
-          <h1 class="card__title">To Do</h1>
-          <button class="card__dropDown_btn" id="to_do_filter_btn" data-menu="menu1">filter 
-            <svg class="icon__header" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#b80f45"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M13 6L21 6.00048M13 12L21 12.0005M13 18L21 18.0005M6 4V20M6 4L3 7M6 4L9 7M6 20L3 17M6 20L9 17" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-          </button> 
-          <div class="card__dropDown__cont" id="menu1">
-            <a href="#">A-Z</a>
-            <a href="#">Z-A</a>
-            <a href="#">Last Added</a>
-            <a href="#">Rec. Added</a>
-          </div>
-        </div>
-      </div>
-      <div class="card" id="In-progress--container">
-        <div class="card__heather" id="in_process_header">
-          <h1 class="card__title">In progress</h1>
-          <button class="card__dropDown_btn" id="in_progress_filter_btn" data-menu="menu2">filter
-            <svg class="icon__header" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#e3703a"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M13 6L21 6.00048M13 12L21 12.0005M13 18L21 18.0005M6 4V20M6 4L3 7M6 4L9 7M6 20L3 17M6 20L9 17" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-          </button>
-          <div class="card__dropDown__cont" id="menu2">
-            <a href="#">A-Z</a>
-            <a href="#">Z-A</a>
-            <a href="#">Last Added</a>
-            <a href="#">Rec. Added</a>
-          </div>
-        </div>
-      </div>
-      <div class="card" id="Completed--container">
-        <div class="card__heather">
-          <h1 class="card__title">Completed</h1>
-          <button class="card__dropDown_btn" data-menu="menu3">filter
-            <svg class="icon__header" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#068171"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M13 6L21 6.00048M13 12L21 12.0005M13 18L21 18.0005M6 4V20M6 4L3 7M6 4L9 7M6 20L3 17M6 20L9 17" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-          </button>
-          <div class="card__dropDown__cont" id="menu3">
-            <a href="#">A-Z</a>
-            <a href="#">Z-A</a>
-            <a href="#">Last Added</a>
-            <a href="#">Rec. Added</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script type="module" src="src/main.js"></script>
-  </body>
+		<div class="wrapper">
+		<div class="card" id="To-do--container">
+			<div class="card__heather" id="to_do_header">
+			<h1 class="card__title">To Do</h1>
+			<button class="card__dropDown_btn" id="to_do_filter_btn" data-menu="menu1"> filter 
+				<svg class="icon__header" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#b80f45">
+				<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+				<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+				<g id="SVGRepo_iconCarrier"><path d="M13 6L21 6.00048M13 12L21 12.0005M13 18L21 18.0005M6 4V20M6 4L3 7M6 4L9 7M6 20L3 17M6 20L9 17" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+				</g>
+			</svg>
+			</button>
+			<div class="card__dropDown__cont" id="menu1">
+				<a href="#">A-Z</a>
+				<a href="#">Z-A</a>
+				<a href="#">Last Added</a>
+				<a href="#">Rec. Added</a>
+			</div>
+			</div>
+			<div id="task-wrapper-to-do" class="task-wrapper"></div>
+			<button class="addButtons" id="newTaskBtn">+ Add New Task</button>
+		</div>
+
+		<div class="card" id="In-progress--container">
+			<div class="card__heather" id="in_process_header">
+			<h1 class="card__title">In progress</h1>
+			<button
+				class="card__dropDown_btn" id="in_progress_filter_btn" data-menu="menu2"> filter
+				<svg
+				class="icon__header" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#e3703a">
+				<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+				<g
+					id="SVGRepo_tracerCarrier"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				></g>
+					<g id="SVGRepo_iconCarrier">
+						<path d="M13 6L21 6.00048M13 12L21 12.0005M13 18L21 18.0005M6 4V20M6 4L3 7M6 4L9 7M6 20L3 17M6 20L9 17" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejo in="round"></path>
+					</g>
+				</svg>
+			</button>
+			<div class="card__dropDown__cont" id="menu2">
+				<a href="#">A-Z</a>
+				<a href="#">Z-A</a>
+				<a href="#">Last Added</a>
+				<a href="#">Rec. Added</a>
+			</div>
+			</div>
+			<div id="task-wrapper-in-progress" class="task-wrapper"></div>
+			<button id='addNewTaskGroupBtn' class="addButtons">+ Add New Task Group</button>
+		</div>
+		
+		<div class="card" id="Completed--container">
+			<div class="card__heather">
+					<h1 class="card__title">Completed</h1>
+					<button class="card__dropDown_btn" data-menu="menu3"> filter 
+						<svg class="icon__header" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#068171"><g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+							<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+							<g id="SVGRepo_iconCarrier"><path d="M13 6L21 6.00048M13 12L21 12.0005M13 18L21 18.0005M6 4V20M6 4L3 7M6 4L9 7M6 20L3 17M6 20L9 17" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+							</g>
+						</svg>
+					</button>
+				<div class="card__dropDown__cont" id="menu3">
+					<a href="#">A-Z</a>
+					<a href="#">Z-A</a>
+					<a href="#">Last Added</a>
+					<a href="#">Rec. Added</a>
+				</div>
+			</div>
+			<div id="task-wrapper-copmleted" class="task-wrapper"></div>
+			<button id="clearAllBtn" class="addButtons">- Clear All</button>
+		</div>
+		</div>
+		<script type="module" src="src/main.js"></script>
+	</body>
 </html>
