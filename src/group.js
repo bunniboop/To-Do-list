@@ -1,4 +1,5 @@
-import { replaceInput, makeElement, addNewTask} from "./taskDetails.js";
+import { replaceTaskTilte,  makeElement, addNewTask} from "./taskDetails.js";
+
 
 export function createGroup(e){
     const inProgressContainer = document.getElementById('task-wrapper-in-progress');
@@ -42,14 +43,7 @@ export function createGroup(e){
     addNew.addEventListener('click', () => addNewTaskToGroup(divOfTask, svgDropMenu))
 }
 
-function replaceTaskTilte(taskTitle){
-    const inputArea = makeElement({type:'input',className: 'task_input_area'});
-    taskTitle.replaceWith(inputArea)
-    inputArea.addEventListener('keypress', function(e){
-        if (e.key === 'Enter') replaceInput(taskTitle, inputArea)
-        
-    })
-}
+
 
 function addNewTaskToGroup(divOfTask, svgDropMenu){
     divOfTask.style.display = 'inline-flex'

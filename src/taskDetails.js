@@ -28,6 +28,15 @@ export function makeElement({ type, content, className, idName, _src, inner }) {
     return element;
 }
 
+export function replaceTaskTilte(taskTitle){
+    const inputArea = makeElement({type:'input',className: 'task_input_area'});
+    taskTitle.replaceWith(inputArea)
+    inputArea.addEventListener('keypress', function(e){
+        if (e.key === 'Enter') replaceInput(taskTitle, inputArea)
+        
+    })
+}
+
 function inputDone(textArea, container) {
     const taskTittleInput = textArea.value;
     if (taskTittleInput == '') {
