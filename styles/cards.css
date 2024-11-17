@@ -1,6 +1,7 @@
 .card{
     width:60vh;
-    min-height: 45vh;
+    min-height: 300px;
+    min-width: 350px;
     background-color: aliceblue;
     margin: 10px;
     border-radius: 10px;
@@ -181,14 +182,20 @@
 }
 
 .drop-down-tasks{
-    border: #2cd169 solid 1px;
+    /* border: #2cd169 solid 1px; */
     width: 90%;
     display: none;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .drop-down-tasks > .single-task{
     max-height: 35px;
+    width: 95%;
+    margin: 2px;
+    font-size: small;
+    font-weight: 100;
 }
 
 .group-task-wrapper{
@@ -197,7 +204,7 @@
     flex-direction: column;
     width: 100%;
     margin-bottom: 5px;
-    gap: 5px;
+    /* gap: 5px; */
     border-radius: 10px;
     align-items: center;
 }
@@ -210,5 +217,42 @@
     background-color: var(--clr--card-task);
     border-radius: 10px;
     align-items: center;
+    margin-bottom: 3px;
     /* border: blue solid 1px; */
+}
+
+
+.progress{
+    /* border: #dafd2e solid 1px; */
+    border: var(--clr--dark) solid 1.5px;
+    /* max-height: 10px; */
+    height: 7px;
+    width: 130px;
+    border-radius: 15px;
+    /* flex-grow: 1; */
+}
+
+.bar{
+    width: 0%;
+    height: 100%;
+    background-color: var(--clr--dark);
+    border-radius: 15px;
+}
+
+.progress__div{
+    /* border: #e3703a solid 2px; */
+    min-height: 15px;
+    width: 85%;
+    display: 'flex';
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+
+.progress_btn{
+    cursor: pointer;
+    margin-left: auto;
+    font-size: small;
+    color: #330707;
 }

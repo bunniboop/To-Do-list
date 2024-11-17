@@ -1,4 +1,4 @@
-import { addNewTask } from "./taskDetails.js";
+
 
 function dropDown(e){
     const buttonPar = e.target.closest('.card__dropDown_btn');
@@ -30,10 +30,28 @@ function removeAll(){
     completedContainer.innerHTML = '';
 }
 
+function cancelButtonHandler(e){
+    e.currentTarget.parentElement.parentElement.remove()
+}
 
+function completeHandler(e) {
+    const completedContainer = document.getElementById('task-wrapper-copmleted');
+    // console.log((e.currentTarget.parentNode.parentNode));
+    
+    completedContainer.appendChild(e.currentTarget.parentNode.parentNode);
+    e.currentTarget.parentNode.remove();
+}
+
+function addToProgressBar(e) {
+    console.log(e.currentTarget);
+    //add 10% to progressbar
+    
+}
 
 export {
     dropDown,
-    addNewTask,
-    removeAll
+    removeAll,
+    cancelButtonHandler,
+    completeHandler,
+    addToProgressBar
 }
