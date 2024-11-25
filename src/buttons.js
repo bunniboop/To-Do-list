@@ -74,6 +74,9 @@ function addToProgressBar(e) {
         completedContainer.appendChild(wrapper)
     }
     
+    const bar = progresBarr.children[1].children[0];
+    bar.style.width = `${progresBarProcet}%`
+    
     progresBarr.children[0].textContent = progresBarProcet.toFixed(2) + '%';
 }
 
