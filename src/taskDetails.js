@@ -27,7 +27,7 @@ export function addNewTask(conteinderEl) {
 
 
 function inputDone(textArea, container) {
-    const taskTittleInput = textArea.value;
+    const taskTittleInput = textArea.value.substring(0, 15);
     if (taskTittleInput == '') {
         return
     }
@@ -59,7 +59,7 @@ export function replaceTaskTilte(taskTitle) {
 }
 
 export function replaceInput(taskTitle, inputArea) {
-    taskTitle.textContent = inputArea.value;
+    taskTitle.textContent = inputArea.value.substring(0, 15);
     inputArea.replaceWith(taskTitle)
 }
 function taskEventHandler(completedContainer, container, taskTitle) {

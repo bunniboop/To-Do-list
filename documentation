@@ -1,9 +1,10 @@
----------Featurs added:---------
+---------Features added:---------
 -Styles:
 	* Add task buttons animation/transition
 		- when hoverd
 		- when clicked
-
+	* Maybe move + btn on the groups so it doessnt collide with the progress bar
+	* group task styles (make smaller)
 -Features:
 	* Clear all btn functuality
 	* To-do task buttons func. added
@@ -13,12 +14,11 @@
 
 ---------TO be added:---------
 -Styles:
-	>? Maybe move + btn on the groups so it doessnt collide with the progress bar
-	> group task styles (make smaller)
+	> Transitions and animations
 	
 -Features:
 	>New groups button funcuality.
-		- progressbar.
+		- progressbar filling up.
 		*(ADDED) drop down menu.
 	> Tutorial
 	
@@ -28,7 +28,7 @@
 
 
 TO BE FIXED!:
-#
+! 
 
 FIXED:
 - Task name cant be changed after completed

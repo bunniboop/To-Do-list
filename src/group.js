@@ -46,7 +46,7 @@ export function createGroup(e){
     textArea.addEventListener('keypress', function(e){
         if (e.key === 'Enter' && textArea.value !== ''){
             svgDropMenu.disabled = false;
-            const taskTitle = makeElement({type:'h3', content: textArea.value, className: 'task-title'});
+            const taskTitle = makeElement({type:'h3', content: textArea.value.substring(0, 15), className: 'task-title'});
             textArea.replaceWith(taskTitle);
             taskTitle.addEventListener('click', () => replaceTaskTilte(taskTitle))
 
