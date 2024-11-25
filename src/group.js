@@ -1,6 +1,6 @@
-import { replaceTaskTilte,  makeElement, addNewTask} from "./taskDetails.js";
+import { replaceTaskTilte, addNewTask} from "./taskDetails.js";
 import { html, render } from "../node_modules/lit-html/lit-html.js";
-
+import { makeElement } from "./tools.js";
 
 export function createGroup(e){
     const inProgressContainer = document.getElementById('task-wrapper-in-progress');
