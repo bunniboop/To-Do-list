@@ -13,6 +13,7 @@ export function createGroup(e){
     const textArea = makeElement({type:'input', className: 'task_input_area'});
     textArea.placeholder ='New group name...';
     svgDropMenu.setAttribute('toggle', 'closed')
+    svgDropMenu.setAttribute('data-no-transition', 'true')
     svgDropMenu.disabled = true;
     const divOfTask = makeElement({type:"div", className:'drop-down-tasks'})
     divOfTask.style.display = 'none';

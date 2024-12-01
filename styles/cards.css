@@ -142,10 +142,18 @@
     border: none;
     width: 30px;
     height: 30px;
+
+    transition: transform 0.2s
 }
 
 .icon__task_btn:hover{
     cursor: pointer;
+    transform: translateY(-2px);
+}
+
+[data-no-transition="true"]:hover {
+    transition: none; /* Remove the transition */
+    transform: none;
 }
 
 .addButtons{
@@ -156,11 +164,14 @@
     border: none;
     padding: 10px;
 
-
+    transition: transform 0.2s, color 0.3s;
 }
 
 .addButtons:hover{
     cursor: pointer;
+    transform: translateY(-2px);
+    opacity: 80%;
+    color: #a0bade;
 }
 
 .task-wrapper{
