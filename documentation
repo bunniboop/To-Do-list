@@ -19,17 +19,18 @@
 ---------TO be added:---------
 -Styles:
 	> Transitions and animations
-	> 
+		# progress bar
+		- when hovering over confirm/delete btns
 -Features:
 	> readME file
 	> Tutorial (could be put in read me)
-	
+	> Welcome message to nav rather than unuseful btns
 		
 
 
 
 TO BE FIXED!:
-! 
+!When task is deleted, progress bar changes accordingly
 
 FIXED:
 - Task name cant be changed after completed
