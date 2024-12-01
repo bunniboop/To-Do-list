@@ -1,34 +1,36 @@
----------Featurs added:---------
+---------Features added:---------
 -Styles:
 	* Add task buttons animation/transition
 		- when hoverd
 		- when clicked
-
+	* Maybe move + btn on the groups so it doessnt collide with the progress bar
+	* group task styles (make smaller)
+	* Task name lenght max (so the title doesnt break out of bounce);
 -Features:
 	* Clear all btn functuality
 	* To-do task buttons func. added
 	* Task confirm and cancel button.
 	* A way to edit existing tasks.
+	* New groups button funcuality.
+		- progressbar filling up.
+		*(ADDED) drop down menu.
 
 
 ---------TO be added:---------
 -Styles:
-	>? Maybe move + btn on the groups so it doessnt collide with the progress bar
-	> group task styles (make smaller)
-	
+	> Transitions and animations
+		# progress bar
+		# when hovering over confirm/delete btns
 -Features:
-	>New groups button funcuality.
-		- progressbar.
-		*(ADDED) drop down menu.
-	> Tutorial
-	
-	>Security features:
-		- Task name lenght max (so the title doesnt break out of bounce);
+	> readME file
+	> Tutorial (could be put in read me)
+	# Welcome message to nav rather than unuseful btns
+		
 
 
 
 TO BE FIXED!:
-#
+!When task is deleted, progress bar changes accordingly
 
 FIXED:
 - Task name cant be changed after completed
