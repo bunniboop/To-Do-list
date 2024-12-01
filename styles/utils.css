@@ -2,19 +2,15 @@
 .headerbtn{
     width: 4rem;
     height: 2rem;
-    margin: 10px;
     color: var(--clr-light);
     text-decoration: none;
     
 }
 
-.headerbtn:not(:last-child){
-    border-right: 2px solid var(--clr-light);
-    padding-right: 20px;
-}
-
-.headerbtn:last-child{
-    padding-right: 20px;
+.headerbtn:last-child > svg{
+    float: right;
+    width: 30px;
+    height: 30px;
 }
 
 

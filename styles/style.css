@@ -21,7 +21,6 @@ body{
 .headthers{
     display: inline-block;
     width: 100%;
-    text-align: right;
     padding: 20px;
     font-size: large;
     border-bottom: 1px solid var(--clr-light);
