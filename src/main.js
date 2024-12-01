@@ -11,7 +11,7 @@ const addNewTaskBtn = document.getElementById('newTaskBtn');
 const clearAll = document.getElementById('clearAllBtn');
 const addNewTaskGroupBtn = document.getElementById('addNewTaskGroupBtn');
 const todoContainer = document.getElementById('task-wrapper-to-do')
-const filterButtons = document.querySelector('.card__dropDown__cont')
+const filterButtons = document.querySelectorAll('.card__dropDown__cont')
 
 
 //event Listeners -->
@@ -26,5 +26,5 @@ clearAll.addEventListener('click', removeAll)
 
 addNewTaskGroupBtn.addEventListener('click', createGroup)
 
-filterButtons.addEventListener('click', filterTasks)
+Array.from(filterButtons).forEach(el =>el.addEventListener('click', filterTasks))
 

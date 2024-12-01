@@ -6,6 +6,8 @@ import { makeElement } from "./tools.js";
 export function addNewTask(conteinderEl) {
     const todoContainer = conteinderEl;
     const div = makeElement({ type: 'div', className: 'single-task' });
+    const timestamp = Date.now();
+    div.setAttribute('data-added-time', timestamp)
 
     const svg = '<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="8" cy="8" r="8" fill="#afb6c9"></circle> </g></svg>';
     const svgContainer = makeElement({ type: 'button' });

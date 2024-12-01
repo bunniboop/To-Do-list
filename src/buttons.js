@@ -102,8 +102,9 @@ function filterTasks(e) {
             return b.dataset.addedTime - a.dataset.addedTime;
         }
     });
-    console.log(tasksList);
-
+    
+    tasksContainer.replaceChildren()
+    tasksList.forEach((task) => tasksContainer.appendChild(task));
 
 
 }
