@@ -5,25 +5,26 @@
 		- when clicked
 	* Maybe move + btn on the groups so it doessnt collide with the progress bar
 	* group task styles (make smaller)
+	* Task name lenght max (so the title doesnt break out of bounce);
 -Features:
 	* Clear all btn functuality
 	* To-do task buttons func. added
 	* Task confirm and cancel button.
 	* A way to edit existing tasks.
+	* New groups button funcuality.
+		- progressbar filling up.
+		*(ADDED) drop down menu.
 
 
 ---------TO be added:---------
 -Styles:
 	> Transitions and animations
-	
+	> 
 -Features:
-	>New groups button funcuality.
-		- progressbar filling up.
-		*(ADDED) drop down menu.
-	> Tutorial
+	> readME file
+	> Tutorial (could be put in read me)
 	
-	>Security features:
-		- Task name lenght max (so the title doesnt break out of bounce);
+		
 
 
 
